@@ -6,6 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>BASE DOCUMENT HTML CONNECTED!!</h1>
+    <h1>This is aboce the block in base.html</h1>
+
+    {% block content %}
+    <h1>This is inside the block in base.html</h1>
+    {% endblock content %}
+
+    <h1>This is below the block in base.html</h1>
 </body>
 </html>
