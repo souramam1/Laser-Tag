@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Most modren development servers are watching for file changes to auto-restart.
 # In this simple script we add a comment to a file in our project and then remove it.
 # This tricks development server into restarting, thinking actual changes were made.
