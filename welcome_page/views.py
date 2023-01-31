@@ -10,4 +10,7 @@ def simple_view(request):
 def about_view(request):
     return render(request, 'welcome_page/about.html') 
 
+def software_view(request):
+    return render(request, 'welcome_page/software.html')
+
 
