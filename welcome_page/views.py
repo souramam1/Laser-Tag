@@ -13,4 +13,7 @@ def about_view(request):
 def software_view(request):
     return render(request, 'welcome_page/software.html')
 
+def contact_view(request):
+    return render(request, 'welcome_page/contact.html')
+
 
