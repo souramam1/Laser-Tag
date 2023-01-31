@@ -7,3 +7,7 @@ def simple_view(request):
     #return HttpResponse('HELLO') 
     return render(request, 'welcome_page/base.html')  # .html
 
+def about_view(request):
+    return render(request, 'welcome_page/about.html') 
+
+
