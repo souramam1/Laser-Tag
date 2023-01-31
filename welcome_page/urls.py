@@ -4,5 +4,4 @@ from . import views
 ###### :8000/other
 urlpatterns = [
     path('',views.simple_view),
-    path('/about',views.simple_view),
 ]
