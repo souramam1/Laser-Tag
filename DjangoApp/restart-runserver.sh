@@ -5,7 +5,7 @@
 # TODO: change myapp/manage.py with any code file in your project
 
 # Add a comment to the end of file
-echo "# meow" >> Laser-Tag/manage.py
+echo "# meow" >> DjangoApp/manage.py
 
 # Remove that added comment
-sed -i '' -e '$ d' Laser-Tag/manage.py
+sed -i '' -e '$ d' DjangoApp/manage.py
