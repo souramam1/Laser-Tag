@@ -6,3 +6,6 @@ from django.urls import reverse
 def simple_view(request):
     #return HttpResponse('HELLO') 
     return render(request, 'welcome_page/base.html')  # .html
+
+def simple_view(request):
+    return render(request, 'welcome_page/about.html')  # .html
