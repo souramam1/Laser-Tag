@@ -121,10 +121,14 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+#Added manually
+STATIC_ROOT = "/var/www/DjangoApp/static/"
+
 
 #Added manually
 STATICFILES_DIRS = [
-    BASE_DIR / "static",   
+    BASE_DIR / "static", 
+     
 ]
 
 # Default primary key field type
